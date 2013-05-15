@@ -1,8 +1,6 @@
 #import "MyBookshelfLoginPageViewController.h"
-@interface MyBookshelfLoginPageViewController ()
-@end
-
-@implementation MyBookshelfLoginPageViewController
+@interface MyBookshelfLoginPageViewController () @end
+@implementation MyBookshelfLoginPageViewController                                                              // WTF
 // UIScrollViev and PageControl View
 @synthesize scrollView;
 @synthesize pageControl;
@@ -89,26 +87,23 @@
     pageControl.numberOfPages = 4;
     pageControl.currentPage = 0;
 }
+- (void)labelProperties:(UILabel *)loginButtonLabel text:(NSString *)buttonLabelText{
+    [loginButtonLabel setBackgroundColor:[UIColor clearColor]];
+    loginButtonLabel.textColor = [UIColor whiteColor];
+    loginButtonLabel.shadowColor = [UIColor colorWithWhite:0 alpha:0.2];
+    loginButtonLabel.shadowOffset = CGSizeMake(0, 1);
+    loginButtonLabel.textAlignment = NSTextAlignmentCenter;
+    loginButtonLabel.font = [UIFont fontWithName:@"PT Sans" size:15];
+    loginButtonLabel.text = [NSString stringWithFormat:@"%@", buttonLabelText];
+}
 - (void)setLoginButtonFacebook:(UIButton *)loginButtonFacebook {
     loginButtonLabelFacebook = [[UILabel alloc] initWithFrame:CGRectMake(45, 0, 250, 52)];
-    [loginButtonLabelFacebook setBackgroundColor:[UIColor clearColor]];
-    loginButtonLabelFacebook.textColor = [UIColor whiteColor];
-    loginButtonLabelFacebook.shadowColor = [UIColor colorWithWhite:0 alpha:0.2];
-    loginButtonLabelFacebook.shadowOffset = CGSizeMake(0, 1);
-    loginButtonLabelFacebook.textAlignment = NSTextAlignmentCenter;
-    loginButtonLabelFacebook.font = [UIFont fontWithName:@"PT Sans" size:15];
-    loginButtonLabelFacebook.text = [NSString stringWithFormat:@"Connect with Facebook"];
+    [self labelProperties:loginButtonLabelFacebook text:@"Connect with Facebook"];
     [loginButtonFacebook addSubview:loginButtonLabelFacebook];
 }
-- (void)setLoginButtonEmail:(UILabel *)loginButtonEmail {
+- (void)setLoginButtonEmail:(UIButton *)loginButtonEmail{
     loginButtonLabelEmail = [[UILabel alloc] initWithFrame:CGRectMake(45, 0, 250, 52)];
-    [loginButtonLabelEmail setBackgroundColor:[UIColor clearColor]];
-    loginButtonLabelEmail.textColor = [UIColor whiteColor];
-    loginButtonLabelEmail.shadowColor = [UIColor colorWithWhite:0 alpha:0.2];
-    loginButtonLabelEmail.shadowOffset = CGSizeMake(0, 1);
-    loginButtonLabelEmail.textAlignment = NSTextAlignmentCenter;
-    loginButtonLabelEmail.font = [UIFont fontWithName:@"PT Sans" size:15];
-    loginButtonLabelEmail.text = [NSString stringWithFormat:@"Sign up with Username or Email"];
+    [self labelProperties:loginButtonLabelEmail text:@"Sign in using Username or Email"];
     [loginButtonEmail addSubview:loginButtonLabelEmail];
 }
 - (void)scrollViewDidEndDecelerating:(UIScrollView *)scrollView {
@@ -119,10 +114,5 @@
     CGFloat pageWidth = self.scrollView.frame.size.width;
     int page = floor((self.scrollView.contentOffset.x - pageWidth / 2) / pageWidth) + 1;
     self.pageControl.currentPage = page;
-}
-
-- (IBAction)loginButtonEmailCreatePage:(UIButton *)sender {
-    self.pageControl.currentPage = 4;
-    
 }
 @end
