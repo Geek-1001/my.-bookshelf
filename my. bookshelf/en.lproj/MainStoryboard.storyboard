@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="2.0" toolsVersion="3084" systemVersion="12D78" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="woh-f7-qh3">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="2083"/>
+    </dependencies>
+    <scenes>
+        <!--Navigation Controller-->
+        <scene sceneID="Vcb-LQ-X97">
+            <objects>
+                <navigationController definesPresentationContext="YES" navigationBarHidden="YES" id="woh-f7-qh3" sceneMemberID="viewController">
+                    <simulatedStatusBarMetrics key="simulatedStatusBarMetrics" statusBarStyle="blackTranslucent"/>
+                    <nil key="simulatedTopBarMetrics"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="uf0-N1-Jff">
+                        <rect key="frame" x="0.0" y="0.0" width="0.0" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="OEd-dn-fEn" kind="relationship" relationship="rootViewController" id="Atq-Xj-l60"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ctZ-ZR-meJ" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-101" y="33"/>
+        </scene>
+        <!--My Bookshelf Login Page View Controller - Welcome!-->
+        <scene sceneID="mdY-BB-veS">
+            <objects>
+                <viewController id="OEd-dn-fEn" customClass="MyBookshelfLoginPageViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="OY9-zL-bWK">
+                        <rect key="frame" x="0.0" y="20" width="320" height="460"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="loginBackground.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="tJ4-h2-cL1"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="V7u-JG-VgX">
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="301" type="user" id="50z-19-Zd7"/>
+                                    <constraint firstAttribute="height" constant="52" id="VfA-Mq-WaC"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <state key="normal" backgroundImage="buttonLoginFacebook.png">
+                                    <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nEG-Od-v28">
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="52" id="IFW-sI-Ga1"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <state key="normal" backgroundImage="buttonLoginEmail.png">
+                                    <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="loginButtonEmailCreatePage:" destination="OEd-dn-fEn" eventType="touchUpOutside" id="2zg-44-pw7"/>
+                                </connections>
+                            </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="loginTopBar.png" translatesAutoresizingMaskIntoConstraints="NO" id="yHb-Gs-nWp">
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="47" type="user" id="EKZ-Vg-yif"/>
+                                </constraints>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Rdi-Z9-jfV">
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="62" id="9nr-EN-r1J"/>
+                                    <constraint firstAttribute="width" constant="122" id="h7M-zu-Bmt"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <state key="normal" backgroundImage="loginTopBarLogo.png">
+                                    <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" alwaysBounceHorizontal="YES" pagingEnabled="YES" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" translatesAutoresizingMaskIntoConstraints="NO" id="h2H-sz-Gk0">
+                                <connections>
+                                    <outlet property="delegate" destination="Rgu-lj-EPX" id="a1Z-6w-EXA"/>
+                                </connections>
+                            </scrollView>
+                            <pageControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" numberOfPages="3" translatesAutoresizingMaskIntoConstraints="NO" id="Rgu-lj-EPX">
+                                <connections>
+                                    <action selector="clickPageControl:" destination="OEd-dn-fEn" eventType="valueChanged" id="zFl-sR-nnk"/>
+                                </connections>
+                            </pageControl>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="yHb-Gs-nWp" firstAttribute="leading" secondItem="OY9-zL-bWK" secondAttribute="leading" type="default" id="0D5-1Z-v0I"/>
+                            <constraint firstAttribute="bottom" secondItem="nEG-Od-v28" secondAttribute="bottom" constant="14" id="1OL-iJ-JDy"/>
+                            <constraint firstItem="nEG-Od-v28" firstAttribute="centerX" secondItem="Rgu-lj-EPX" secondAttribute="centerX" type="default" id="8yc-3Z-mgO"/>
+                            <constraint firstAttribute="bottom" secondItem="Rgu-lj-EPX" secondAttribute="bottom" constant="144" id="Bvm-p8-tAO"/>
+                            <constraint firstItem="nEG-Od-v28" firstAttribute="trailing" secondItem="V7u-JG-VgX" secondAttribute="trailing" type="default" id="BwG-le-bSo"/>
+                            <constraint firstItem="nEG-Od-v28" firstAttribute="leading" secondItem="V7u-JG-VgX" secondAttribute="leading" type="default" id="IYA-YG-HGw"/>
+                            <constraint firstAttribute="bottom" secondItem="h2H-sz-Gk0" secondAttribute="bottom" constant="173" id="LFD-5q-Gr6"/>
+                            <constraint firstItem="tJ4-h2-cL1" firstAttribute="top" secondItem="OY9-zL-bWK" secondAttribute="top" type="default" id="PLt-vr-lMM"/>
+                            <constraint firstItem="Rdi-Z9-jfV" firstAttribute="top" secondItem="OY9-zL-bWK" secondAttribute="top" type="default" id="X8K-ZN-FQ8"/>
+                            <constraint firstItem="h2H-sz-Gk0" firstAttribute="trailing" secondItem="OY9-zL-bWK" secondAttribute="trailing" type="default" id="dl7-L7-xtg"/>
+                            <constraint firstItem="h2H-sz-Gk0" firstAttribute="top" secondItem="OY9-zL-bWK" secondAttribute="top" constant="77" id="fmK-AQ-jE8"/>
+                            <constraint firstItem="h2H-sz-Gk0" firstAttribute="centerX" secondItem="Rgu-lj-EPX" secondAttribute="centerX" type="default" id="gPs-5T-Y71"/>
+                            <constraint firstItem="Rdi-Z9-jfV" firstAttribute="centerX" secondItem="yHb-Gs-nWp" secondAttribute="centerX" type="default" id="ilh-Bx-oDV"/>
+                            <constraint firstItem="yHb-Gs-nWp" firstAttribute="top" secondItem="OY9-zL-bWK" secondAttribute="top" type="default" id="jbA-XA-MSQ"/>
+                            <constraint firstItem="tJ4-h2-cL1" firstAttribute="leading" secondItem="OY9-zL-bWK" secondAttribute="leading" type="default" id="msb-jd-neE"/>
+                            <constraint firstItem="h2H-sz-Gk0" firstAttribute="leading" secondItem="OY9-zL-bWK" secondAttribute="leading" type="default" id="npQ-lg-8Lw"/>
+                            <constraint firstItem="nEG-Od-v28" firstAttribute="top" secondItem="V7u-JG-VgX" secondAttribute="bottom" constant="8" symbolic="YES" type="default" id="x3C-3V-NBu"/>
+                            <constraint firstItem="tJ4-h2-cL1" firstAttribute="bottom" secondItem="OY9-zL-bWK" secondAttribute="bottom" type="default" id="xYT-Ob-gE9"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" title="Welcome!" id="bQw-9G-nud"/>
+                    <nil key="simulatedTopBarMetrics"/>
+                    <connections>
+                        <outlet property="loginButtonEmail" destination="nEG-Od-v28" id="G2I-zd-CkX"/>
+                        <outlet property="loginButtonFacebook" destination="V7u-JG-VgX" id="LQR-kJ-cC1"/>
+                        <outlet property="pageControl" destination="Rgu-lj-EPX" id="ovn-wE-Wty"/>
+                        <outlet property="scrollView" destination="h2H-sz-Gk0" id="REN-z4-Fhv"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="KjZ-gs-Vbr" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="326" y="33"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="buttonLoginEmail.png" width="301" height="52"/>
+        <image name="buttonLoginFacebook.png" width="301" height="52"/>
+        <image name="loginBackground.jpg" width="320" height="480"/>
+        <image name="loginTopBar.png" width="320" height="47"/>
+        <image name="loginTopBarLogo.png" width="122" height="62"/>
+    </resources>
+    <simulatedMetricsContainer key="defaultSimulatedMetrics">
+        <simulatedStatusBarMetrics key="statusBar"/>
+        <simulatedOrientationMetrics key="orientation"/>
+        <simulatedScreenMetrics key="destination"/>
+    </simulatedMetricsContainer>
+</document>

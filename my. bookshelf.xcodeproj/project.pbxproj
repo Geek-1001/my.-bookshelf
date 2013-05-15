@@ -1,0 +1,385 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		44252F1B173F173800D36378 /* PageControlViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 44252F1A173F173800D36378 /* PageControlViewController.m */; };
+		4478421F173AFCF100B81F1A /* loginBackground@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4478421C173AFCF100B81F1A /* loginBackground@2x.jpg */; };
+		44784229173AFD0A00B81F1A /* PT Sans Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 44784223173AFD0A00B81F1A /* PT Sans Regular.ttf */; };
+		4478422A173AFD0A00B81F1A /* PT Sans Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 44784224173AFD0A00B81F1A /* PT Sans Italic.ttf */; };
+		4478422B173AFD0A00B81F1A /* PT Sans BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 44784225173AFD0A00B81F1A /* PT Sans BoldItalic.ttf */; };
+		4478422C173AFD0A00B81F1A /* PT Sans Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 44784226173AFD0A00B81F1A /* PT Sans Bold.ttf */; };
+		4478422D173AFD0A00B81F1A /* PT Sans Narrow Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 44784227173AFD0A00B81F1A /* PT Sans Narrow Regular.ttf */; };
+		4478422E173AFD0A00B81F1A /* PT Sans Narrow Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 44784228173AFD0A00B81F1A /* PT Sans Narrow Bold.ttf */; };
+		44784232173AFD5E00B81F1A /* MyBookshelfLoginPageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 44784231173AFD5E00B81F1A /* MyBookshelfLoginPageViewController.m */; };
+		44824438173AFCAB00E10AC3 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 44824437173AFCAB00E10AC3 /* UIKit.framework */; };
+		4482443A173AFCAB00E10AC3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 44824439173AFCAB00E10AC3 /* Foundation.framework */; };
+		4482443C173AFCAB00E10AC3 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4482443B173AFCAB00E10AC3 /* CoreGraphics.framework */; };
+		44824442173AFCAB00E10AC3 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 44824440173AFCAB00E10AC3 /* InfoPlist.strings */; };
+		44824444173AFCAB00E10AC3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 44824443173AFCAB00E10AC3 /* main.m */; };
+		44824448173AFCAB00E10AC3 /* MyBookshelfAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 44824447173AFCAB00E10AC3 /* MyBookshelfAppDelegate.m */; };
+		44824451173AFCAB00E10AC3 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4482444F173AFCAB00E10AC3 /* MainStoryboard.storyboard */; };
+		44828BE1173C4B5F00B13447 /* loginBackground.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 44828BE0173C4B5F00B13447 /* loginBackground.jpg */; };
+		44828BE5173C4C4800B13447 /* loginCard.png in Resources */ = {isa = PBXBuildFile; fileRef = 44828BE4173C4C4800B13447 /* loginCard.png */; };
+		44B0FCF7173BE2520091BA1F /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 44B0FCF6173BE2520091BA1F /* Default-568h@2x.png */; };
+		44B0FD04173C394D0091BA1F /* loginTopBarLogo.png in Resources */ = {isa = PBXBuildFile; fileRef = 44B0FD02173C394D0091BA1F /* loginTopBarLogo.png */; };
+		44B0FD05173C394D0091BA1F /* loginTopBar.png in Resources */ = {isa = PBXBuildFile; fileRef = 44B0FD03173C394D0091BA1F /* loginTopBar.png */; };
+		44BB014D1743616E0001CB05 /* buttonLoginEmail.png in Resources */ = {isa = PBXBuildFile; fileRef = 44BB014B1743616E0001CB05 /* buttonLoginEmail.png */; };
+		44BB014E1743616E0001CB05 /* buttonLoginFacebook.png in Resources */ = {isa = PBXBuildFile; fileRef = 44BB014C1743616E0001CB05 /* buttonLoginFacebook.png */; };
+		44BB015017438D3B0001CB05 /* loginCardIllustration.png in Resources */ = {isa = PBXBuildFile; fileRef = 44BB014F17438D3B0001CB05 /* loginCardIllustration.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		44252F19173F173800D36378 /* PageControlViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PageControlViewController.h; sourceTree = "<group>"; };
+		44252F1A173F173800D36378 /* PageControlViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PageControlViewController.m; sourceTree = "<group>"; };
+		4478421C173AFCF100B81F1A /* loginBackground@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "loginBackground@2x.jpg"; sourceTree = "<group>"; };
+		44784223173AFD0A00B81F1A /* PT Sans Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "PT Sans Regular.ttf"; sourceTree = "<group>"; };
+		44784224173AFD0A00B81F1A /* PT Sans Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "PT Sans Italic.ttf"; sourceTree = "<group>"; };
+		44784225173AFD0A00B81F1A /* PT Sans BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "PT Sans BoldItalic.ttf"; sourceTree = "<group>"; };
+		44784226173AFD0A00B81F1A /* PT Sans Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "PT Sans Bold.ttf"; sourceTree = "<group>"; };
+		44784227173AFD0A00B81F1A /* PT Sans Narrow Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "PT Sans Narrow Regular.ttf"; sourceTree = "<group>"; };
+		44784228173AFD0A00B81F1A /* PT Sans Narrow Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "PT Sans Narrow Bold.ttf"; sourceTree = "<group>"; };
+		44784230173AFD5E00B81F1A /* MyBookshelfLoginPageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyBookshelfLoginPageViewController.h; sourceTree = "<group>"; };
+		44784231173AFD5E00B81F1A /* MyBookshelfLoginPageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyBookshelfLoginPageViewController.m; sourceTree = "<group>"; };
+		44824434173AFCAB00E10AC3 /* my. bookshelf.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "my. bookshelf.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		44824437173AFCAB00E10AC3 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		44824439173AFCAB00E10AC3 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		4482443B173AFCAB00E10AC3 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		4482443F173AFCAB00E10AC3 /* my. bookshelf-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "my. bookshelf-Info.plist"; sourceTree = "<group>"; };
+		44824441173AFCAB00E10AC3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		44824443173AFCAB00E10AC3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		44824445173AFCAB00E10AC3 /* my. bookshelf-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "my. bookshelf-Prefix.pch"; sourceTree = "<group>"; };
+		44824446173AFCAB00E10AC3 /* MyBookshelfAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyBookshelfAppDelegate.h; sourceTree = "<group>"; };
+		44824447173AFCAB00E10AC3 /* MyBookshelfAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyBookshelfAppDelegate.m; sourceTree = "<group>"; };
+		44824450173AFCAB00E10AC3 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		44828BE0173C4B5F00B13447 /* loginBackground.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = loginBackground.jpg; sourceTree = "<group>"; };
+		44828BE4173C4C4800B13447 /* loginCard.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = loginCard.png; sourceTree = "<group>"; };
+		44B0FCF6173BE2520091BA1F /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default-568h@2x.png"; path = "../Default-568h@2x.png"; sourceTree = "<group>"; };
+		44B0FD02173C394D0091BA1F /* loginTopBarLogo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = loginTopBarLogo.png; sourceTree = "<group>"; };
+		44B0FD03173C394D0091BA1F /* loginTopBar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = loginTopBar.png; sourceTree = "<group>"; };
+		44BB014B1743616E0001CB05 /* buttonLoginEmail.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = buttonLoginEmail.png; sourceTree = "<group>"; };
+		44BB014C1743616E0001CB05 /* buttonLoginFacebook.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = buttonLoginFacebook.png; sourceTree = "<group>"; };
+		44BB014F17438D3B0001CB05 /* loginCardIllustration.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = loginCardIllustration.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		44824431173AFCAB00E10AC3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				44824438173AFCAB00E10AC3 /* UIKit.framework in Frameworks */,
+				4482443A173AFCAB00E10AC3 /* Foundation.framework in Frameworks */,
+				4482443C173AFCAB00E10AC3 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		44252F1E173F1C2200D36378 /* Help */ = {
+			isa = PBXGroup;
+			children = (
+				44252F19173F173800D36378 /* PageControlViewController.h */,
+				44252F1A173F173800D36378 /* PageControlViewController.m */,
+			);
+			name = Help;
+			sourceTree = "<group>";
+		};
+		44784222173AFCF500B81F1A /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				4478421C173AFCF100B81F1A /* loginBackground@2x.jpg */,
+				44828BE0173C4B5F00B13447 /* loginBackground.jpg */,
+				44B0FD02173C394D0091BA1F /* loginTopBarLogo.png */,
+				44828BE4173C4C4800B13447 /* loginCard.png */,
+				44BB014F17438D3B0001CB05 /* loginCardIllustration.png */,
+				44B0FD03173C394D0091BA1F /* loginTopBar.png */,
+				44BB014B1743616E0001CB05 /* buttonLoginEmail.png */,
+				44BB014C1743616E0001CB05 /* buttonLoginFacebook.png */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+		4478422F173AFD0D00B81F1A /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				44784223173AFD0A00B81F1A /* PT Sans Regular.ttf */,
+				44784224173AFD0A00B81F1A /* PT Sans Italic.ttf */,
+				44784225173AFD0A00B81F1A /* PT Sans BoldItalic.ttf */,
+				44784226173AFD0A00B81F1A /* PT Sans Bold.ttf */,
+				44784227173AFD0A00B81F1A /* PT Sans Narrow Regular.ttf */,
+				44784228173AFD0A00B81F1A /* PT Sans Narrow Bold.ttf */,
+			);
+			name = Fonts;
+			sourceTree = "<group>";
+		};
+		4482442B173AFCAB00E10AC3 = {
+			isa = PBXGroup;
+			children = (
+				4482443D173AFCAB00E10AC3 /* my. bookshelf */,
+				44824436173AFCAB00E10AC3 /* Frameworks */,
+				44824435173AFCAB00E10AC3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		44824435173AFCAB00E10AC3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				44824434173AFCAB00E10AC3 /* my. bookshelf.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		44824436173AFCAB00E10AC3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				44824437173AFCAB00E10AC3 /* UIKit.framework */,
+				44824439173AFCAB00E10AC3 /* Foundation.framework */,
+				4482443B173AFCAB00E10AC3 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4482443D173AFCAB00E10AC3 /* my. bookshelf */ = {
+			isa = PBXGroup;
+			children = (
+				4482444F173AFCAB00E10AC3 /* MainStoryboard.storyboard */,
+				44784230173AFD5E00B81F1A /* MyBookshelfLoginPageViewController.h */,
+				44784231173AFD5E00B81F1A /* MyBookshelfLoginPageViewController.m */,
+				4482443E173AFCAB00E10AC3 /* Supporting Files */,
+			);
+			path = "my. bookshelf";
+			sourceTree = "<group>";
+		};
+		4482443E173AFCAB00E10AC3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				44252F1E173F1C2200D36378 /* Help */,
+				4478422F173AFD0D00B81F1A /* Fonts */,
+				44784222173AFCF500B81F1A /* Images */,
+				44824446173AFCAB00E10AC3 /* MyBookshelfAppDelegate.h */,
+				44824447173AFCAB00E10AC3 /* MyBookshelfAppDelegate.m */,
+				4482443F173AFCAB00E10AC3 /* my. bookshelf-Info.plist */,
+				44824440173AFCAB00E10AC3 /* InfoPlist.strings */,
+				44824443173AFCAB00E10AC3 /* main.m */,
+				44824445173AFCAB00E10AC3 /* my. bookshelf-Prefix.pch */,
+				44B0FCF6173BE2520091BA1F /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		44824433173AFCAB00E10AC3 /* my. bookshelf */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 44824457173AFCAB00E10AC3 /* Build configuration list for PBXNativeTarget "my. bookshelf" */;
+			buildPhases = (
+				44824430173AFCAB00E10AC3 /* Sources */,
+				44824431173AFCAB00E10AC3 /* Frameworks */,
+				44824432173AFCAB00E10AC3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "my. bookshelf";
+			productName = "my. bookshelf";
+			productReference = 44824434173AFCAB00E10AC3 /* my. bookshelf.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4482442C173AFCAB00E10AC3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = MyBookshelf;
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "Andrew Veles";
+			};
+			buildConfigurationList = 4482442F173AFCAB00E10AC3 /* Build configuration list for PBXProject "my. bookshelf" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 4482442B173AFCAB00E10AC3;
+			productRefGroup = 44824435173AFCAB00E10AC3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				44824433173AFCAB00E10AC3 /* my. bookshelf */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		44824432173AFCAB00E10AC3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				44824442173AFCAB00E10AC3 /* InfoPlist.strings in Resources */,
+				44824451173AFCAB00E10AC3 /* MainStoryboard.storyboard in Resources */,
+				4478421F173AFCF100B81F1A /* loginBackground@2x.jpg in Resources */,
+				44784229173AFD0A00B81F1A /* PT Sans Regular.ttf in Resources */,
+				4478422A173AFD0A00B81F1A /* PT Sans Italic.ttf in Resources */,
+				4478422B173AFD0A00B81F1A /* PT Sans BoldItalic.ttf in Resources */,
+				4478422C173AFD0A00B81F1A /* PT Sans Bold.ttf in Resources */,
+				4478422D173AFD0A00B81F1A /* PT Sans Narrow Regular.ttf in Resources */,
+				4478422E173AFD0A00B81F1A /* PT Sans Narrow Bold.ttf in Resources */,
+				44B0FCF7173BE2520091BA1F /* Default-568h@2x.png in Resources */,
+				44B0FD04173C394D0091BA1F /* loginTopBarLogo.png in Resources */,
+				44B0FD05173C394D0091BA1F /* loginTopBar.png in Resources */,
+				44828BE1173C4B5F00B13447 /* loginBackground.jpg in Resources */,
+				44828BE5173C4C4800B13447 /* loginCard.png in Resources */,
+				44BB014D1743616E0001CB05 /* buttonLoginEmail.png in Resources */,
+				44BB014E1743616E0001CB05 /* buttonLoginFacebook.png in Resources */,
+				44BB015017438D3B0001CB05 /* loginCardIllustration.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		44824430173AFCAB00E10AC3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				44824444173AFCAB00E10AC3 /* main.m in Sources */,
+				44824448173AFCAB00E10AC3 /* MyBookshelfAppDelegate.m in Sources */,
+				44784232173AFD5E00B81F1A /* MyBookshelfLoginPageViewController.m in Sources */,
+				44252F1B173F173800D36378 /* PageControlViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		44824440173AFCAB00E10AC3 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				44824441173AFCAB00E10AC3 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		4482444F173AFCAB00E10AC3 /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				44824450173AFCAB00E10AC3 /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		44824455173AFCAB00E10AC3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		44824456173AFCAB00E10AC3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		44824458173AFCAB00E10AC3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "my. bookshelf/my. bookshelf-Prefix.pch";
+				INFOPLIST_FILE = "my. bookshelf/my. bookshelf-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		44824459173AFCAB00E10AC3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "my. bookshelf/my. bookshelf-Prefix.pch";
+				INFOPLIST_FILE = "my. bookshelf/my. bookshelf-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4482442F173AFCAB00E10AC3 /* Build configuration list for PBXProject "my. bookshelf" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				44824455173AFCAB00E10AC3 /* Debug */,
+				44824456173AFCAB00E10AC3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		44824457173AFCAB00E10AC3 /* Build configuration list for PBXNativeTarget "my. bookshelf" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				44824458173AFCAB00E10AC3 /* Debug */,
+				44824459173AFCAB00E10AC3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4482442C173AFCAB00E10AC3 /* Project object */;
+}
