@@ -13,5 +13,11 @@
 
 @property (strong, nonatomic) IBOutlet UILabel        *loginButtonLabel;
 @property (strong, nonatomic) IBOutlet UIImageView    *loginCard;
-- (IBAction)loginButtonEmailCreatePage:(UIButton *)sender;
+- (void)scrollViewProperties:(UIScrollView *)scrollView andPageControl:(UIPageControl *)pageControl;
+- (void)createLoginCards:(int)iterator addLabels:(NSMutableArray *)loginCardLabels addIllutrations:(NSMutableArray *)loginCardIllustrations;
+- (void)addLabels:(NSMutableArray *)loginCardLabels withQuantity:(int)iterator;
+- (void)addIllustrations:(NSMutableArray *)loginCardIllustrations withQuantity:(int)iterator;
+- (void)loginButtonLabelProperties:(UILabel *)loginButtonLabel andText:(NSString *)buttonLabelText;
+- (void)setLoginButtonFacebook:(UIButton *)loginButtonFacebook;
+- (void)setLoginButtonEmail:(UIButton *)loginButtonEmail;
 @end
