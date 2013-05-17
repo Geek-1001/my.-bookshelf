@@ -4,10 +4,12 @@
 // UIScrollViev and PageControl View
 @synthesize scrollView;
 @synthesize pageControl;
+
+@synthesize loginCard;
+@synthesize discoveryRound;
 // login buttons
 @synthesize loginButtonLabelFacebook;
 @synthesize loginButtonLabelEmail;
-@synthesize loginCard;
 
 - (void)didReceiveMemoryWarning{
     [super didReceiveMemoryWarning];
@@ -33,31 +35,28 @@
      * properties for variables and objects
      * initializes first
      */
-    NSMutableArray *loginCardIllustrations = [[NSMutableArray alloc] initWithObjects:
-                                       @"loginCardIllustration.png",
-                                       @"loginCardIllustration.png",
-                                       @"loginCardIllustration.png",
-                                       // Destroy this item or return nil.       
-                                       @"",
+    NSMutableArray *discoveryRoundIllustrations = [[NSMutableArray alloc] initWithObjects:
+                                       @"discoveryRoundOne.png",
+                                       @"discoveryRoundTwo.png",
+                                       @"discoveryRoundThree.png",
                                        nil];
     
-    NSMutableArray *loginCardLabels = [[NSMutableArray alloc] initWithObjects:
+    NSMutableArray *discoveryRoundLabels = [[NSMutableArray alloc] initWithObjects:
                                 @"Discover and share thousands of books!",
                                 @"Create your own book collection!",
-                                @"Get your books. Anywhere.",
-                                // Destroy this item or return nil.
-                                @"",                                                    
+                                @"Get your books. Anywhere.",                         
                                 nil];
     
-    [self createLoginCards:4 addLabels:loginCardLabels addIllutrations:loginCardIllustrations];
-    [self scrollViewProperties:scrollView andPageControl:pageControl];
+    [self createDiscoveryRounds:3 addIllutrations:discoveryRoundIllustrations];
+    [self createLoginCard:1];
+    [self scrollViewProperties:scrollView andPageControl:pageControl withNumberOfPages:4];
 }
-- (void)scrollViewProperties:(UIScrollView *)scrollView andPageControl:(UIPageControl *)pageControl {
+- (void)scrollViewProperties:(UIScrollView *)scrollView andPageControl:(UIPageControl *)pageControl withNumberOfPages:(int)n {
     self.scrollView.delegate = self;
-    [self.scrollView setScrollEnabled:YES];
-    self.scrollView.contentSize = CGSizeMake(1280, 210);
+    self.scrollView.scrollEnabled = YES;
+    self.scrollView.contentSize = CGSizeMake(320 * n, 210);
     self.scrollView.pagingEnabled = YES;
-    self.pageControl.numberOfPages = 4;
+    self.pageControl.numberOfPages = n;
     self.pageControl.currentPage = 0;
 }
 - (void)loginButtonLabelProperties:(UILabel *)loginButtonLabel andText:(NSString *)buttonLabelText {
@@ -71,15 +70,23 @@
     loginButtonLabel.text = [NSString stringWithFormat:@"%@", buttonLabelText];
 }
 
-- (void)createLoginCards:(int)iterator addLabels:(NSMutableArray *)loginCardLabels addIllutrations:(NSMutableArray *)loginCardIllustrations {
-    for (iterator = 0; iterator < 4; iterator++) {
-        loginCard = [[UIImageView alloc] initWithImage:[UIImage imageNamed:[NSString stringWithFormat:@"loginCard.png"]]];
-        loginCard.frame = CGRectMake((iterator) * 320 + 8, 0, 303, 210);
-        [scrollView addSubview:loginCard];
-        [self addLabels:loginCardLabels withQuantity:iterator];
-        [self addIllustrations:loginCardIllustrations withQuantity:iterator];
+- (void)createDiscoveryRounds:(int)quantity addIllutrations:(NSMutableArray *)loginCardIllustrations {
+    for (int iterator = 0; iterator < quantity; iterator++) {
+        discoveryRound = [[UIImageView alloc] initWithImage:[UIImage imageNamed:[loginCardIllustrations objectAtIndex:iterator]]];
+        discoveryRound.frame = CGRectMake((iterator) * 320 + 60, 0, 200, 200);
+        [scrollView addSubview:discoveryRound];
+        //[self addLabels:loginCardLabels withQuantity:iterator];
+        //[self addIllustrations:loginCardIllustrations withQuantity:iterator];
     }
 }
+- (void)createLoginCard:(int)quantity {
+    for(int iterator = 0; iterator < quantity; iterator++) {
+        loginCard = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"loginCard.png"]];
+        loginCard.frame = CGRectMake(960 + (iterator) * 320 + 8, 0, 303, 210);
+        [scrollView addSubview:loginCard];
+    }
+}
+/*
 - (void)addLabels:(NSMutableArray *)loginCardLabels withQuantity:(int)iterator {
     // loginCardLabel properties
     UILabel *loginCardLabel = [[UILabel alloc] initWithFrame:CGRectMake(3, 169, 297, 30)];
@@ -97,7 +104,7 @@
     loginCardIllustration.frame = CGRectMake(2, 1, 299, 160);
     [loginCard addSubview:loginCardIllustration];
 }
-
+*/
 - (void)setLoginButtonFacebook:(UIButton *)loginButtonFacebook {
     loginButtonLabelFacebook = [[UILabel alloc] init];
     [self loginButtonLabelProperties:loginButtonLabelFacebook andText:@"Connect with Facebook"];

@@ -30,7 +30,9 @@
 		44B0FD05173C394D0091BA1F /* loginTopBar.png in Resources */ = {isa = PBXBuildFile; fileRef = 44B0FD03173C394D0091BA1F /* loginTopBar.png */; };
 		44BB014D1743616E0001CB05 /* buttonLoginEmail.png in Resources */ = {isa = PBXBuildFile; fileRef = 44BB014B1743616E0001CB05 /* buttonLoginEmail.png */; };
 		44BB014E1743616E0001CB05 /* buttonLoginFacebook.png in Resources */ = {isa = PBXBuildFile; fileRef = 44BB014C1743616E0001CB05 /* buttonLoginFacebook.png */; };
-		44BB015017438D3B0001CB05 /* loginCardIllustration.png in Resources */ = {isa = PBXBuildFile; fileRef = 44BB014F17438D3B0001CB05 /* loginCardIllustration.png */; };
+		44BED63E1746207C00E85691 /* discoveryRoundTwo.png in Resources */ = {isa = PBXBuildFile; fileRef = 44BED63B1746207C00E85691 /* discoveryRoundTwo.png */; };
+		44BED63F1746207C00E85691 /* discoveryRoundThree.png in Resources */ = {isa = PBXBuildFile; fileRef = 44BED63C1746207C00E85691 /* discoveryRoundThree.png */; };
+		44BED6401746207C00E85691 /* discoveryRoundOne.png in Resources */ = {isa = PBXBuildFile; fileRef = 44BED63D1746207C00E85691 /* discoveryRoundOne.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -63,7 +65,9 @@
 		44B0FD03173C394D0091BA1F /* loginTopBar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = loginTopBar.png; sourceTree = "<group>"; };
 		44BB014B1743616E0001CB05 /* buttonLoginEmail.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = buttonLoginEmail.png; sourceTree = "<group>"; };
 		44BB014C1743616E0001CB05 /* buttonLoginFacebook.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = buttonLoginFacebook.png; sourceTree = "<group>"; };
-		44BB014F17438D3B0001CB05 /* loginCardIllustration.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = loginCardIllustration.png; sourceTree = "<group>"; };
+		44BED63B1746207C00E85691 /* discoveryRoundTwo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = discoveryRoundTwo.png; sourceTree = "<group>"; };
+		44BED63C1746207C00E85691 /* discoveryRoundThree.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = discoveryRoundThree.png; sourceTree = "<group>"; };
+		44BED63D1746207C00E85691 /* discoveryRoundOne.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = discoveryRoundOne.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -92,11 +96,13 @@
 		44784222173AFCF500B81F1A /* Images */ = {
 			isa = PBXGroup;
 			children = (
+				44BED63B1746207C00E85691 /* discoveryRoundTwo.png */,
+				44BED63C1746207C00E85691 /* discoveryRoundThree.png */,
+				44BED63D1746207C00E85691 /* discoveryRoundOne.png */,
 				4478421C173AFCF100B81F1A /* loginBackground@2x.jpg */,
 				44828BE0173C4B5F00B13447 /* loginBackground.jpg */,
 				44B0FD02173C394D0091BA1F /* loginTopBarLogo.png */,
 				44828BE4173C4C4800B13447 /* loginCard.png */,
-				44BB014F17438D3B0001CB05 /* loginCardIllustration.png */,
 				44B0FD03173C394D0091BA1F /* loginTopBar.png */,
 				44BB014B1743616E0001CB05 /* buttonLoginEmail.png */,
 				44BB014C1743616E0001CB05 /* buttonLoginFacebook.png */,
@@ -240,7 +246,9 @@
 				44828BE5173C4C4800B13447 /* loginCard.png in Resources */,
 				44BB014D1743616E0001CB05 /* buttonLoginEmail.png in Resources */,
 				44BB014E1743616E0001CB05 /* buttonLoginFacebook.png in Resources */,
-				44BB015017438D3B0001CB05 /* loginCardIllustration.png in Resources */,
+				44BED63E1746207C00E85691 /* discoveryRoundTwo.png in Resources */,
+				44BED63F1746207C00E85691 /* discoveryRoundThree.png in Resources */,
+				44BED6401746207C00E85691 /* discoveryRoundOne.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

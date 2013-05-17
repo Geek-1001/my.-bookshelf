@@ -134,6 +134,24 @@
         <image name="loginTopBar.png" width="320" height="47"/>
         <image name="loginTopBarLogo.png" width="122" height="62"/>
     </resources>
+    <classes>
+        <class className="MyBookshelfLoginPageViewController" superclassName="UIViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/MyBookshelfLoginPageViewController.h"/>
+            <relationships>
+                <relationship kind="outlet" name="discoveryRound" candidateClass="UIImageView"/>
+                <relationship kind="outlet" name="loginButtonEmail" candidateClass="UIButton"/>
+                <relationship kind="outlet" name="loginButtonFacebook" candidateClass="UIButton"/>
+                <relationship kind="outlet" name="loginButtonLabel" candidateClass="UILabel"/>
+                <relationship kind="outlet" name="loginButtonLabelEmail" candidateClass="UILabel"/>
+                <relationship kind="outlet" name="loginButtonLabelFacebook" candidateClass="UILabel"/>
+                <relationship kind="outlet" name="pageControl" candidateClass="UIPageControl"/>
+                <relationship kind="outlet" name="scrollView" candidateClass="UIScrollView"/>
+            </relationships>
+        </class>
+        <class className="NSLayoutConstraint" superclassName="NSObject">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/NSLayoutConstraint.h"/>
+        </class>
+    </classes>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
         <simulatedStatusBarMetrics key="statusBar"/>
         <simulatedOrientationMetrics key="orientation"/>
